@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/content/f75fc0a7b800e39ea0b4dcbb927bd1d819fcd5a2a76cf5680ddcacb1f781e258i0" type="image/svg+xml">
+<title>Gotchi</title>
+</head>
+<body style="margin: 0">
+<script>
+const collection = fetch('/content/9f040ea73530193b90443156b63b3ab87685c249dc869ad00916f3010e99effci0')
+.then(response => response.json())
+.then(data => {
+for (ordinal of data) { const iframe = document.createElement('iframe'); iframe.style.border = 0; iframe.style.width = '50%'; iframe.style.height = '500px'; iframe.src = `/content/${ordinal.id}`; document.body.appendChild(iframe); } })
+</script>
+</body>
+</html>

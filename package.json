@@ -5,6 +5,10 @@
   "main": "lib/indexer.ts",
   "scripts": {
     "indexer": "ts-node -T lib/indexer.ts",
+    "airdrop": "ts-node -T lib/airdrop.ts",
+    "airdrop-btceggs": "ts-node -T lib/airdrop-btceggs.ts",
+    "btceggs-indexer": "ts-node -T lib/btceggs-indexer.ts",
+    "btceggs-mempool": "ts-node -T lib/btceggs-mempool.ts",
     "mempool": "ts-node -T lib/mempool.ts",
     "winner": "ts-node -T lib/winner.ts"
   },

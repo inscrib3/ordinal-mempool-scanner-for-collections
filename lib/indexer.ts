@@ -8,7 +8,7 @@ let total = 0
 let offset = 0
 
 let latestBlock = 0
-let firstBlock = 797158
+let firstBlock = 798801
 
 let block = firstBlock
 
